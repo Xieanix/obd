@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Rubik+Vinyl&display=swap');
+main {
+
+    display: flex;
+    justify-content: center
+  }
+  body{
+    background-color: grey;
+  }
+  div{
+    text-align: center;
+  }
+  h3{
+    margin: auto;
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  a{
+    color: aliceblue;
+  }
+  h2 {
+    color:  rgb(98, 89, 173);
+    text-align: center;
+    background-color: rgb(54, 58, 55);
+    color: aliceblue;
+  }
+  table {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(32, 32, 32);
+    color: rgb(219, 219, 219);
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgb(68, 70, 56);
+    text-align: center;
+  }
+  
+  th {
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.5em 1em;
+    text-align: center;
+  }
+  
+  td::before {
+    display: none;
+    text-align: center;
+  }
+  
